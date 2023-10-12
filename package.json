@@ -1,10 +1,13 @@
 {
-  "name": "vanilla-parcel-2",
+  "name": "my react tutorial",
   "version": "1.0.0",
   "description": "",
+  "main": "public/index.js",
+  "style": "public/styles.css",
+  "files": ["public"],
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "start": "rollup -c -w",
+    "build": "rollup"
   },
   "devDependencies": {
     "parcel": "^2.0.0"
